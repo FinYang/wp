@@ -1,5 +1,9 @@
 # Working paper quarto template
 
+- Modified from the [Monash quarto working paper template](https://github.com/numbats/monash-quarto-workingpaper).
+- Embeds the [`abstract-section`](https://github.com/pandoc-ext/abstract-section) extension.
+
+
 ## Creating a New Article
 
 To create a new article using this format:

@@ -31,6 +31,7 @@ contributes:
       number-sections: true
       number-depth: 2
       template-partials:
+        - "before-body.tex"
         - "before-title.tex"
         - "title.tex"
       filters:

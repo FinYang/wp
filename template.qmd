@@ -13,23 +13,31 @@ author:
         country: USA
         postal-code: 02210-1022
       - A second affilication
-    orcid: 0000-0000-0000-0000
     email: sm@example.org
-    url: https://example.org/
   - name: Eliza Dealloc
     affiliations:
       - Another Affiliation
 abstract: |
   This document is a template demonstrating the Wp format.
+include-in-header: 
+  text: |
+    \usepackage{lipsum}
 keywords: [template, demo]
 bibliography: bibliography.bib  
-blind: true
+blind: false
 ---
 
-## Introduction {#sec-intro}
 
 
 
+
+# Section 1
+
+\lipsum[1-5]
+
+# Section 2
+
+@CameronTrivedi2013
 
 
 
@@ -40,3 +48,5 @@ blind: true
 We would like to thank our pet goldfish...
 
 :::
+
+# Reference {-}

@@ -9,5 +9,27 @@ contributes:
       filters:
         - blindable-div.lua
     pdf:
-      include-in-header: header.tex
-
+      documentclass: article
+      papersize: a4
+      fontsize: 12pt
+      date: today
+      date-format: "D MMMM YYYY"
+      toc: false
+      pdf-engine: pdflatex
+      linestretch: 1.5
+      geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+      execute: 
+        echo: false
+        warning: false
+        message: false
+      fig-height: 5
+      fig-width: 8
+      number-sections: true
+      number-depth: 2
+      template-partials:
+        - "before-title.tex"
+        - "title.tex"

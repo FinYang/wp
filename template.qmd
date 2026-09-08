@@ -1,5 +1,5 @@
 ---
-title: Wp Template
+title: Working paper quarto template
 format:
   wp-pdf:
     keep-tex: true  
@@ -17,14 +17,9 @@ author:
   - name: Eliza Dealloc
     affiliations:
       - Another Affiliation
-include-in-header: 
-  text: |
-    \usepackage{lipsum}
 keywords: [template, demo]
 bibliography: bibliography.bib  
 blind: false
-
-  
 ---
 
 
@@ -33,13 +28,9 @@ blind: false
 This document is a template demonstrating the Wp format.
 
 
-# Section 1
+# Introduction 
 
-\lipsum[1-5]
-
-# Section 2
-
-@CameronTrivedi2013
+Example of a citation: @CameronTrivedi2013 
 
 
 

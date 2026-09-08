@@ -27,6 +27,14 @@ format:
 
 ## Options
 
+Use the blindable div to hide content that should not show up in the blind version. Use `blind: true` to toggle it in the yaml.
+
+
+```
+::: {.blindable}
+Content to hide
+:::
+```
 
 ## Example
 

@@ -23,10 +23,20 @@ abstract: |
   This document is a template demonstrating the Wp format.
 keywords: [template, demo]
 bibliography: bibliography.bib  
+blind: true
 ---
 
 ## Introduction {#sec-intro}
 
-*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 
 
+
+
+
+::: {.blindable}
+
+# Acknowledgement {.unnumbered}
+
+We would like to thank our pet goldfish...
+
+:::

@@ -17,18 +17,20 @@ author:
   - name: Eliza Dealloc
     affiliations:
       - Another Affiliation
-abstract: |
-  This document is a template demonstrating the Wp format.
 include-in-header: 
   text: |
     \usepackage{lipsum}
 keywords: [template, demo]
 bibliography: bibliography.bib  
 blind: false
+
+  
 ---
 
 
+# Abstract
 
+This document is a template demonstrating the Wp format.
 
 
 # Section 1

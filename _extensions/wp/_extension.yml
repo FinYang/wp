@@ -18,10 +18,10 @@ contributes:
       pdf-engine: pdflatex
       linestretch: 1.5
       geometry:
-      - top=2.5cm
-      - bottom=2.5cm
-      - left=2.5cm
-      - right=2.5cm
+        - top=2.5cm
+        - bottom=2.5cm
+        - left=2.5cm
+        - right=2.5cm
       execute: 
         echo: false
         warning: false
@@ -33,3 +33,5 @@ contributes:
       template-partials:
         - "before-title.tex"
         - "title.tex"
+      filters:
+        - abstract-section

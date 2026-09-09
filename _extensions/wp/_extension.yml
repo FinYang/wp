@@ -30,6 +30,7 @@ contributes:
       fig-width: 8
       number-sections: true
       number-depth: 2
+      block-headings: false
       template-partials:
         - "before-body.tex"
         - "before-title.tex"
